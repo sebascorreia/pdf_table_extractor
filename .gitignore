@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PDF/data files (DON'T upload real data)
+*.pdf
+*.csv
+*.xlsx
+data/
+output/
+
+# Executables and build artifacts
+*.exe
+*.spec
+dist/
+build/
+
+# Secrets or local config
+.env
