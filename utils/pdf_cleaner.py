@@ -1,5 +1,5 @@
 import pymupdf
-from font_loader import get_font_paths
+from utils.font_loader import get_font_paths
 
 input_pdf = "data\PE1_4DP.pdf"
 output_pdf = "output\cleaned.pdf"

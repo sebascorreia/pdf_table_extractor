@@ -1,7 +1,7 @@
 import pdfplumber
 import numpy as np
 import csv
-from data_processing import clean_extracted_table
+from utils.data_processing import clean_extracted_table
 PDF_PATH = "output\cleaned.pdf"
 scale = 72 / 150
 
